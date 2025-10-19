@@ -1,0 +1,205 @@
+[
+  {
+    "Project_name": "manim",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-079",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "manim",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-200",
+    "Number_of_Findings": 143,
+    "Is_In_CWE_Top_25": "Yes"
+  },
+  {
+    "Project_name": "manim",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-396",
+    "Number_of_Findings": 2,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "manim",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-390",
+    "Number_of_Findings": 3,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "manim",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-628",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "manim",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-563",
+    "Number_of_Findings": 30,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-532",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-359",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-312",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-396",
+    "Number_of_Findings": 23,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-390",
+    "Number_of_Findings": 18,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-561",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-200",
+    "Number_of_Findings": 68,
+    "Is_In_CWE_Top_25": "Yes"
+  },
+  {
+    "Project_name": "deeplake",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-563",
+    "Number_of_Findings": 16,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-020",
+    "Number_of_Findings": 54,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-079",
+    "Number_of_Findings": 2,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-113",
+    "Number_of_Findings": 2,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-326",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-918",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "Yes"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-200",
+    "Number_of_Findings": 175,
+    "Is_In_CWE_Top_25": "Yes"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-628",
+    "Number_of_Findings": 4,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-396",
+    "Number_of_Findings": 13,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-390",
+    "Number_of_Findings": 11,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-687",
+    "Number_of_Findings": 1,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-570",
+    "Number_of_Findings": 10,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-571",
+    "Number_of_Findings": 10,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-561",
+    "Number_of_Findings": 13,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-772",
+    "Number_of_Findings": 35,
+    "Is_In_CWE_Top_25": "No"
+  },
+  {
+    "Project_name": "bbot",
+    "Tool_name": "CodeQL",
+    "CWE_ID": "CWE-563",
+    "Number_of_Findings": 38,
+    "Is_In_CWE_Top_25": "No"
+  }
+]

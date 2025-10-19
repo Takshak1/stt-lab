@@ -1,0 +1,301 @@
+digraph CFG {
+    node [shape=box];
+    B0 [label="B0:
+float speed = 50;
+int sb1 = 700, sb2 = 100, sb3 = 1000, sb4 = 500;
+int f1 = 25, f2 = 25;
+int x = 25, y = 25, r = 12;
+int blx = 10, bly = 10, bls = 10, score1 = 0;
+int x2 = 100, y2 = 340, rndx, rndy;
+int x3 = 200, y3 = 380, rndx3, rndy3;
+int x4 = 300, y4 = 300, rndx4, rndy4;
+int x5 = 200, y5 = 380, rndx5, rndy5;
+int gdriver = DETECT, gmode;
+int c, a, hl = 1, ttr = 0;
+int stack[5] = {383,356,329,302,275}, j = 4, n = 5, k = 0, bcol = 475;
+int stack2[12] = {383,356,329,302,275,248,221,194,167,140,113,86}, n2 = 0, k2 = 0, bcol2 = 575, j2 = 0;
+FILE *fp;
+int h;
+initgraph(&gdriver, &gmode, \"c:\\turboc3\\bgi\");
+cleardevice();
+setcolor(YELLOW);
+outtextxy(15, 15, \"ENTER PASSWORD...\");
+gotoxy(20,2);
+scanf(\"%d\", &h);
+outtextxy(100,30,\"Matching...********\");
+fp = fopen(\"license.exe\",\"r\");"];
+    B1 [label="B1:
+if(fp > 0) {"];
+    B2 [label="B2:
+if(h == MS) {"];
+    B3 [label="B3:
+int a_load = 0, b_load = 0, c_load = 100;"];
+    B4 [label="B4:
+while(a_load < 600) {"];
+    B5 [label="B5:
+setcolor(WHITE);
+settextstyle(0,HORIZ_DIR,3);
+outtextxy(a_load,410,\"Þ\");
+delay(5);
+a_load++;"];
+    B6 [label="B6:
+if(b_load <= 100) {"];
+    B7 [label="B7:
+gotoxy(38,15);
+printf(\"%d\", b_load);"];
+    B8 [label="B8:
+if(a_load == c_load) b_load += 18;"];
+    B9 [label="B9:
+else if(a_load == c_load+100) b_load += 18;"];
+    B10 [label="B10:
+else if(a_load == c_load+200) b_load += 18;"];
+    B11 [label="B11:
+else if(a_load == c_load+300) b_load += 18;"];
+    B12 [label="B12:
+else if(a_load == c_load+400) b_load += 18;"];
+    B13 [label="B13:
+else if(a_load == c_load+500) b_load += 18;"];
+    B14 [label="B14:
+cleardevice();
+setbkcolor(0);
+settextstyle(7,HORIZ_DIR,4);
+setcolor(10);
+outtextxy(280,10,\"786\");
+setcolor(WHITE);
+rectangle(4,50,635,90);
+rectangle(90,95,540,135);
+rectangle(130,140,500,185);
+rectangle(430,250,620,400);
+setcolor(13);
+outtextxy(55,50,\"University of Sindh Jamshoro\");
+setcolor(11);
+outtextxy(120,95,\"Computer Science 2K11\");
+setcolor(9);
+outtextxy(155,140,\"Bismiallah Struggle\");
+settextstyle(8,HORIZ_DIR,2);
+setcolor(14);
+outtextxy(40,290,\"further Please visit given site\");
+rectangle(430,200,490,235);
+line(430,200,490,235);
+line(430,235,490,200);
+setcolor(2);
+outtextxy(40,370,\"http:
+settextstyle(1,HORIZ_DIR,1);
+setcolor(7);
+outtextxy(440,260,\"Thoughts:\");
+settextstyle(3,HORIZ_DIR,1);
+outtextxy(440,300,\"* Life is nothing\");
+outtextxy(440,330,\" without struggle\");
+settextstyle(1,HORIZ_DIR,1);
+setcolor(100);
+outtextxy(230,430,\"press any key to continue\");
+getch();
+initgraph(&gdriver,&gmode,\"c:\\turboc3\\bgi\");
+cleardevice();
+union REGS i,o;
+i.x.ax=0x0; int86(0x33,&i,&o);
+i.x.ax=0x1; int86(0x33,&i,&o);
+MENU_LOOP:
+cleardevice();
+settextstyle(1,HORIZ_DIR,7);
+setcolor(14);
+outtextxy(170,8,\"Rapid Roll\");
+outtextxy(240,350,\"Game\");
+int button, x_mouse, y_mouse;
+i.x.ax=0x3; int86(0x33,&i,&o);
+button = o.x.bx; x_mouse = o.x.cx; y_mouse = o.x.dx;"];
+    B15 [label="B15:
+if(x_mouse>250 && x_mouse<400) {"];
+    B16 [label="B16:
+if(y_mouse>100 && y_mouse<150 && button==1) goto GAME_INIT;"];
+    B17 [label="B17:
+else if(y_mouse>150 && y_mouse<200 && button==1) {"];
+    B18 [label="B18:
+int ssb; settextstyle(1,HORIZ_DIR,2);
+outtextxy(200,200,\"Press 1 for Sound on\");
+outtextxy(200,100,\"Press 0 for Sound off\");
+scanf(\"%d\",&ssb);"];
+    B19 [label="B19:
+if(ssb==1) goto GAME_INIT;"];
+    B20 [label="B20:
+else { sb1=sb2=sb3=sb4=0; goto GAME_INIT; }"];
+    B21 [label="B21:
+else if(y_mouse>200 && y_mouse<250 && button==1) {"];
+    B22 [label="B22:
+FILE *fp_ins; char s[50];
+fp_ins = fopen(\"Instructions.c\",\"r\");"];
+    B23 [label="B23:
+if(fp_ins != 0) {"];
+    B24 [label="B24:
+while(fgets(s,49,fp_ins) != 0) printf(\"%s\", s);"];
+    B25 [label="B25:
+getch(); fclose(fp_ins);
+goto MENU_LOOP;"];
+    B26 [label="B26:
+else if(y_mouse>250 && y_mouse<300 && button==1) goto LOGO_RESTART;"];
+    B27 [label="B27:
+else if(y_mouse>300 && y_mouse<350 && button==1) exit(0);"];
+    B28 [label="B28:
+goto MENU_LOOP;"];
+    B29 [label="B29:
+GAME_INIT:
+rndx = x2; rndy = y2;
+rndx3 = x3; rndy3 = y3;
+rndx4 = x4; rndy4 = y4;
+rndx5 = x5; rndy5 = y5;
+srand(time(NULL));
+int ic = rand()%40*bls;
+int pr = rand()%40*bls;
+blx = ic; bly = pr;"];
+    B30 [label="B30:
+if(bly<30 || bly>350) bly=40;"];
+    B31 [label="B31:
+if(blx<30 || blx>383) blx=20;"];
+    B32 [label="B32:
+while((c=getch())!='\033') {"];
+    B33 [label="B33:
+if(c=='\115') a=1; else if(c=='\113') a=2; else a=0;"];
+    B34 [label="B34:
+if(a==1){ f1+=5; if(f1>390) f1=385; }"];
+    B35 [label="B35:
+else if(a==2){ f1-=5; if(f1<10) f1=20; }"];
+    B36 [label="B36:
+rndy -= 1; if(rndy<=10) rndy=y2;
+rndy3 -= 1; if(rndy3<=10) rndy3=y3;
+rndy4 -= 1; if(rndy4<=10) rndy4=y4;
+f2 += 1;"];
+    B37 [label="B37:
+if((f2==rndy-18 && (f1>=75 && f1<=125)) ||"];
+    B38 [label="B38:
+(f2==rndy3-18 && (f1>=175 && f1<=225)) ||
+(f2==rndy4-18 && (f1>=275 && f1<=325))) f2--;
+delay(speed);"];
+    B39 [label="B39:
+for(int kk=0; kk<n-ttr; kk++){"];
+    B40 [label="B40:
+setcolor(WHITE); circle(bcol,stack[kk],r);
+setfillstyle(SOLID_FILL,GREEN); floodfill(bcol,stack[kk],WHITE);"];
+    B41 [label="B41:
+if(f2==383 || f2==14){"];
+    B42 [label="B42:
+setcolor(BLACK); circle(bcol,stack[j],r);
+setfillstyle(SOLID_FILL,BLACK); floodfill(bcol,stack[j],BLACK);
+j--; sound(sb4); delay(50); nosound();"];
+    B43 [label="B43:
+if(j==-1) goto GAME_OVER;"];
+    B44 [label="B44:
+if((f2==bly || f2+11==bly || f2-11==bly) && (f1>=blx && f1<=blx+11)){"];
+    B45 [label="B45:
+sound(sb3); delay(50); score1+=2; nosound();"];
+    B46 [label="B46:
+if(score1%10==0){ j2++; n2=j2; sound(sb1); delay(70); nosound(); speed-=3.75; }"];
+    B47 [label="B47:
+if(score1>120) goto GAME_WON;"];
+    B48 [label="B48:
+ic = rand()%40*bls; pr = rand()%40*bls; blx=ic; bly=pr;"];
+    B49 [label="B49:
+if(bly<30 || bly>350) bly=40; if(blx<30 || blx>383) blx=20;"];
+    B50 [label="B50:
+GAME_WON:
+cleardevice(); rectangle(40,100,100,135);line(40,100,100,135);line(40,135,100,100);
+settextstyle(7,HORIZ_DIR,5); setcolor(GREEN);
+outtextxy(135,150,\"Congratulation!\"); outtextxy(150,200,\"You won the GAME\");
+settextstyle(7,HORIZ_DIR,1); setcolor(YELLOW);
+outtextxy(300,300,\"By: SindhiTutorials.com\"); getch(); exit(0);
+GAME_OVER:
+cleardevice(); rectangle(40,100,100,135);line(40,100,100,135);line(40,135,100,100);
+settextstyle(7,HORIZ_DIR,5); setcolor(RED); outtextxy(200,200,\"GAME OVER\");
+settextstyle(7,HORIZ_DIR,1); setcolor(YELLOW); outtextxy(300,300,\"By: SindhiTutorials.com\"); getch();
+goto MENU_LOOP;"];
+    B51 [label="B51:
+} else {
+settextstyle(7,HORIZ_DIR,3); setcolor(4); outtextxy(110,225,\"SORRY YOUR PASSWORD IS INVALID\");
+getch();
+return 0;"];
+    B0 -> B1;
+    B1 -> B2 [label="true"];
+    B1 -> B3 [label="false"];
+    B2 -> B3 [label="true"];
+    B2 -> B4 [label="false"];
+    B3 -> B4;
+    B4 -> B5 [label="true"];
+    B4 -> B6 [label="false"];
+    B5 -> B4 [label="back"];
+    B5 -> B6;
+    B6 -> B7 [label="true"];
+    B6 -> B8 [label="false"];
+    B7 -> B8;
+    B8 -> B9 [label="true"];
+    B8 -> B10 [label="false"];
+    B9 -> B10 [label="true"];
+    B9 -> B11 [label="false"];
+    B10 -> B11 [label="true"];
+    B10 -> B12 [label="false"];
+    B11 -> B12 [label="true"];
+    B11 -> B13 [label="false"];
+    B12 -> B13 [label="true"];
+    B12 -> B14 [label="false"];
+    B13 -> B14 [label="true"];
+    B13 -> B15 [label="false"];
+    B14 -> B15;
+    B15 -> B16 [label="true"];
+    B15 -> B17 [label="false"];
+    B16 -> B17 [label="true"];
+    B16 -> B18 [label="false"];
+    B17 -> B18 [label="true"];
+    B17 -> B19 [label="false"];
+    B18 -> B19;
+    B19 -> B20 [label="true"];
+    B19 -> B21 [label="false"];
+    B20 -> B21 [label="true"];
+    B20 -> B22 [label="false"];
+    B21 -> B22 [label="true"];
+    B21 -> B23 [label="false"];
+    B22 -> B23;
+    B23 -> B24 [label="true"];
+    B23 -> B25 [label="false"];
+    B24 -> B25 [label="true"];
+    B24 -> B26 [label="false"];
+    B25 -> B24 [label="back"];
+    B26 -> B27 [label="true"];
+    B26 -> B28 [label="false"];
+    B27 -> B28 [label="true"];
+    B27 -> B29 [label="false"];
+    B29 -> B30;
+    B30 -> B31 [label="true"];
+    B30 -> B32 [label="false"];
+    B31 -> B32 [label="true"];
+    B31 -> B33 [label="false"];
+    B32 -> B33 [label="true"];
+    B32 -> B34 [label="false"];
+    B33 -> B32 [label="back"];
+    B33 -> B34 [label="true"];
+    B33 -> B35 [label="false"];
+    B34 -> B35 [label="true"];
+    B34 -> B36 [label="false"];
+    B35 -> B36 [label="true"];
+    B35 -> B37 [label="false"];
+    B36 -> B37;
+    B37 -> B38 [label="true"];
+    B37 -> B39 [label="false"];
+    B38 -> B39;
+    B39 -> B40 [label="true"];
+    B39 -> B41 [label="false"];
+    B40 -> B39 [label="back"];
+    B40 -> B41;
+    B41 -> B42 [label="true"];
+    B41 -> B43 [label="false"];
+    B42 -> B43;
+    B43 -> B44 [label="true"];
+    B43 -> B45 [label="false"];
+    B44 -> B45 [label="true"];
+    B44 -> B46 [label="false"];
+    B45 -> B46;
+    B46 -> B47 [label="true"];
+    B46 -> B48 [label="false"];
+    B47 -> B48 [label="true"];
+    B47 -> B49 [label="false"];
+    B48 -> B49;
+    B49 -> B50 [label="true"];
+    B49 -> B51 [label="false"];
+}

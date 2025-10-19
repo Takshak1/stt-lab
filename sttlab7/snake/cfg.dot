@@ -1,0 +1,316 @@
+digraph CFG {
+    node [shape=box];
+    B0 [label="B0:
+int gd;
+int gm;
+int maxx;
+int maxy;
+int m[500];
+int n[500];
+int con;
+int x;
+int y;
+int p;
+int q;
+int temp;
+int a;
+int i;
+int j;
+int spd;
+int level;
+int special;
+int score;
+int highscore;
+int wallX;
+int wallY;
+char ch;
+clock_t start;
+clock_t stop;
+int t;
+gd = DETECT;
+gm = 0;
+con = 20;
+x = 13;
+y = 14;
+a = 0;
+i = 0;
+spd = 100;
+level = 1;
+special = 0;
+score = 0;
+highscore = 0;
+initgraph(&gd,&gm,\"..\\bgi\");
+setcolor(WHITE);
+settextstyle(3,0,6);
+outtextxy(200,2,\"SNAKE 2 EXTENDED\");
+settextstyle(6,0,2);
+outtextxy(20,80,\"Use Arrow Keys To Move\");
+outtextxy(20,140,\"Avoid Hitting Yourself or Walls\");
+outtextxy(20,160,\"Eat Beats for Points\");
+outtextxy(20,180,\"Yellow Beats give Bonus\");
+outtextxy(20,200,\"Press P to Pause\");
+outtextxy(20,220,\"Press Esc to Exit\");
+outtextxy(20,240,\"Press Any Key to Start\");
+ch = getch();"];
+    B1 [label="B1:
+if(ch==27) exit(0);"];
+    B2 [label="B2:
+cleardevice();
+maxx = getmaxx();
+maxy = getmaxy();
+srand(time(NULL));
+p = rand()%maxx;
+temp = p%13;
+p = p-temp;
+q = rand()%maxy;
+temp = q%14;
+q = q-temp;
+wallX = maxx/2;
+wallY = maxy/2;
+start = clock();"];
+    B3 [label="B3:
+while(1) {"];
+    B4 [label="B4:
+setcolor(WHITE);"];
+    B5 [label="B5:
+if(special==1) setfillstyle(SOLID_FILL,YELLOW);"];
+    B6 [label="B6:
+else setfillstyle(SOLID_FILL,con+5);"];
+    B7 [label="B7:
+circle(p,q,5);
+floodfill(p,q,WHITE);
+setcolor(RED);
+setfillstyle(SOLID_FILL,RED);
+rectangle(wallX-50,wallY-50,wallX+50,wallY+50);
+floodfill(wallX,wallY,RED);"];
+    B8 [label="B8:
+if(kbhit()) {"];
+    B9 [label="B9:
+ch=getch();"];
+    B10 [label="B10:
+if(ch==0) ch=getch();"];
+    B11 [label="B11:
+if(ch==72 && a!=2) a=1;"];
+    B12 [label="B12:
+if(ch==80 && a!=1) a=2;"];
+    B13 [label="B13:
+if(ch==75 && a!=4) a=3;"];
+    B14 [label="B14:
+if(ch==77 && a!=3) a=4;"];
+    B15 [label="B15:
+if(ch==27) break;"];
+    B16 [label="B16:
+if(ch=='p'||ch=='P'){"];
+    B17 [label="B17:
+while(1){"];
+    B18 [label="B18:
+if(kbhit()){"];
+    B19 [label="B19:
+ch=getch();"];
+    B20 [label="B20:
+if(ch=='p'||ch=='P') break;"];
+    B21 [label="B21:
+if(i<20){"];
+    B22 [label="B22:
+m[i]=x;
+n[i]=y;
+i=i+1;"];
+    B23 [label="B23:
+else{"];
+    B24 [label="B24:
+for(j=con;j>=0;j--){"];
+    B25 [label="B25:
+m[1+j]=m[j];
+n[1+j]=n[j];
+m[0]=x;
+n[0]=y;
+setcolor(WHITE);
+setfillstyle(SOLID_FILL,con);
+circle(m[0],n[0],8);
+floodfill(m[0],n[0],WHITE);"];
+    B26 [label="B26:
+for(j=1;j<con;j++){"];
+    B27 [label="B27:
+setfillstyle(SOLID_FILL,con+j%3);
+circle(m[j],n[j],5);
+floodfill(m[j],n[j],WHITE);
+delay(spd);
+setcolor(BLACK);
+setfillstyle(SOLID_FILL,BLACK);
+circle(m[0],n[0],8);
+floodfill(m[0],n[0],BLACK);
+circle(m[j-1],n[j-1],5);
+floodfill(m[j-1],n[j-1],BLACK);
+stop = clock();
+t = (stop-start)/CLK_TCK;
+score = con-20;"];
+    B28 [label="B28:
+if(score>highscore) highscore=score;"];
+    B29 [label="B29:
+printf(\"TIME %d sec  SCORE %d  LEVEL %d  HIGHSCORE %d\n\",t,score,level,highscore);"];
+    B30 [label="B30:
+for(j=1;j<con;j++){"];
+    B31 [label="B31:
+if(m[0]==m[j] && n[0]==n[j]){"];
+    B32 [label="B32:
+for(int k=0;k<5;k++){"];
+    B33 [label="B33:
+delay(500);
+cleardevice();
+delay(500);"];
+    B34 [label="B34:
+for(int l=0;l<=con;l++){"];
+    B35 [label="B35:
+setfillstyle(SOLID_FILL,RED);
+circle(m[l],n[l],5);
+floodfill(m[l],n[l],WHITE);
+settextstyle(3,0,4);
+outtextxy(150,150,\"GAME OVER\");
+getch();
+exit(0);"];
+    B36 [label="B36:
+if(m[0]>wallX-50 && m[0]<wallX+50 && n[0]>wallY-50 && n[0]<wallY+50){"];
+    B37 [label="B37:
+settextstyle(3,0,4);
+outtextxy(150,150,\"HIT WALL! GAME OVER\");
+getch();
+exit(0);"];
+    B38 [label="B38:
+if(x==p && y==q){"];
+    B39 [label="B39:
+if(special==1) con=con+10;"];
+    B40 [label="B40:
+else con=con+5;"];
+    B41 [label="B41:
+spd=(spd>=5)?spd-5:5;
+level=1+(con-20)/15;
+p=rand()%maxx;
+temp=p%13;
+p=p-temp;
+q=rand()%maxy;
+temp=q%14;
+q=q-temp;
+special=(rand()%5==0)?1:0;"];
+    B42 [label="B42:
+if(a==1){ y=y-14; if(y<0){ temp=maxy%14; y=maxy-temp; } }"];
+    B43 [label="B43:
+if(a==2){ y=y+14; if(y>maxy) y=0; }"];
+    B44 [label="B44:
+if(a==3){ x=x-13; if(x<0){ temp=maxx%13; x=maxx-temp; } }"];
+    B45 [label="B45:
+if(a==4){ x=x+13; if(x>maxx) x=0; }"];
+    B46 [label="B46:
+if(a==0){ y=y+14; x=x+13; }"];
+    B47 [label="B47:
+if(con>=490){"];
+    B48 [label="B48:
+for(int k=0;k<5;k++){"];
+    B49 [label="B49:
+for(int l=0;l<=con;l++){"];
+    B50 [label="B50:
+setfillstyle(SOLID_FILL,con);
+circle(m[l],n[l],5);
+floodfill(m[l],n[l],WHITE);
+delay(500);
+cleardevice();
+delay(500);
+settextstyle(3,0,4);
+outtextxy(210,320,\"YOU WIN\");
+getch();
+exit(0);
+delay(50);"];
+    B0 -> B1;
+    B1 -> B2 [label="true"];
+    B1 -> B3 [label="false"];
+    B2 -> B3;
+    B3 -> B4 [label="true"];
+    B3 -> B5 [label="false"];
+    B4 -> B3 [label="back"];
+    B4 -> B5;
+    B5 -> B6 [label="true"];
+    B5 -> B7 [label="false"];
+    B6 -> B7 [label="true"];
+    B6 -> B8 [label="false"];
+    B7 -> B8;
+    B8 -> B9 [label="true"];
+    B8 -> B10 [label="false"];
+    B9 -> B10;
+    B10 -> B11 [label="true"];
+    B10 -> B12 [label="false"];
+    B11 -> B12 [label="true"];
+    B11 -> B13 [label="false"];
+    B12 -> B13 [label="true"];
+    B12 -> B14 [label="false"];
+    B13 -> B14 [label="true"];
+    B13 -> B15 [label="false"];
+    B14 -> B15 [label="true"];
+    B14 -> B16 [label="false"];
+    B15 -> B16 [label="true"];
+    B15 -> B17 [label="false"];
+    B16 -> B17 [label="true"];
+    B16 -> B18 [label="false"];
+    B17 -> B18 [label="true"];
+    B17 -> B19 [label="false"];
+    B18 -> B17 [label="back"];
+    B18 -> B19 [label="true"];
+    B18 -> B20 [label="false"];
+    B19 -> B20;
+    B20 -> B21 [label="true"];
+    B20 -> B22 [label="false"];
+    B21 -> B22 [label="true"];
+    B21 -> B23 [label="false"];
+    B22 -> B23;
+    B23 -> B24 [label="true"];
+    B23 -> B25 [label="false"];
+    B24 -> B25 [label="true"];
+    B24 -> B26 [label="false"];
+    B25 -> B24 [label="back"];
+    B25 -> B26;
+    B26 -> B27 [label="true"];
+    B26 -> B28 [label="false"];
+    B27 -> B26 [label="back"];
+    B27 -> B28;
+    B28 -> B29 [label="true"];
+    B28 -> B30 [label="false"];
+    B29 -> B30;
+    B30 -> B31 [label="true"];
+    B30 -> B32 [label="false"];
+    B31 -> B30 [label="back"];
+    B31 -> B32 [label="true"];
+    B31 -> B33 [label="false"];
+    B32 -> B33 [label="true"];
+    B32 -> B34 [label="false"];
+    B33 -> B32 [label="back"];
+    B33 -> B34;
+    B34 -> B35 [label="true"];
+    B34 -> B36 [label="false"];
+    B35 -> B34 [label="back"];
+    B35 -> B36;
+    B36 -> B37 [label="true"];
+    B36 -> B38 [label="false"];
+    B37 -> B38;
+    B38 -> B39 [label="true"];
+    B38 -> B40 [label="false"];
+    B39 -> B40 [label="true"];
+    B39 -> B41 [label="false"];
+    B40 -> B41 [label="true"];
+    B40 -> B42 [label="false"];
+    B41 -> B42;
+    B42 -> B43 [label="true"];
+    B42 -> B44 [label="false"];
+    B43 -> B44 [label="true"];
+    B43 -> B45 [label="false"];
+    B44 -> B45 [label="true"];
+    B44 -> B46 [label="false"];
+    B45 -> B46 [label="true"];
+    B45 -> B47 [label="false"];
+    B46 -> B47 [label="true"];
+    B46 -> B48 [label="false"];
+    B47 -> B48 [label="true"];
+    B47 -> B49 [label="false"];
+    B48 -> B49 [label="true"];
+    B48 -> B50 [label="false"];
+    B49 -> B48 [label="back"];
+    B49 -> B50 [label="true"];
+    B50 -> B49 [label="back"];
+}

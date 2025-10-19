@@ -1,0 +1,332 @@
+digraph CFG {
+    node [shape=box];
+    B0 [label="B0:
+int gd;
+int gm;
+gd = DETECT;
+int arr[26][13];
+int i;
+int j;
+int k;
+int score;
+score = 0;
+int spd;
+spd = 100;
+int x;
+int y;
+int rotation;
+int shapeType;
+int lx[4];
+int ly[4];
+int nextShape;
+int nextRot;
+int prevX[4];
+int prevY[4];
+int tempX;
+int tempY;
+int tempLX;
+int tempLY;
+int lineCount;
+lineCount = 0;
+int level;
+level = 1;
+int levelScore;
+levelScore = 0;
+int tempScore;
+int tempLine;
+int holdShape;
+holdShape = -1;
+int holdRot;
+holdRot = 0;
+int canHold;
+canHold = 1;
+int ghostLX[4];
+int ghostLY[4];
+int linesClearedAtOnce;
+int multiplier;
+char play;
+play = 'y';
+char ch;
+initgraph(&gd, &gm, \"d:\\tc\\bgi\");"];
+    B1 [label="B1:
+while(play == 'y') {"];
+    B2 [label="B2:
+for(i = 0; i < 26; i++) {"];
+    B3 [label="B3:
+for(j = 0; j < 13; j++) {"];
+    B4 [label="B4:
+arr[i][j] = 0;"];
+    B5 [label="B5:
+for(i = 0; i < 26; i++) {"];
+    B6 [label="B6:
+arr[i][0] = 1;"];
+    B7 [label="B7:
+for(i = 0; i < 26; i++) {"];
+    B8 [label="B8:
+arr[i][12] = 1;"];
+    B9 [label="B9:
+for(j = 0; j < 13; j++) {"];
+    B10 [label="B10:
+arr[25][j] = 1;
+score = 0;
+spd = 100;
+lineCount = 0;
+level = 1;
+levelScore = 0;
+canHold = 1;
+cleardevice();
+settextstyle(2,0,6);
+outtextxy(200,100,\"TETRIS GAME\");
+outtextxy(100,200,\"Select Level:\");
+outtextxy(100,250,\"1. Easy\");
+outtextxy(100,300,\"2. Medium\");
+outtextxy(100,350,\"3. Hard\");
+ch = getch();"];
+    B11 [label="B11:
+if(ch == '1') {"];
+    B12 [label="B12:
+spd = 200;"];
+    B13 [label="B13:
+if(ch == '2') {"];
+    B14 [label="B14:
+spd = 100;"];
+    B15 [label="B15:
+if(ch == '3') {"];
+    B16 [label="B16:
+spd = 50;
+shapeType = rand() % 7;
+rotation = 0;
+nextShape = rand() % 7;
+nextRot = 0;"];
+    B17 [label="B17:
+while(1) {"];
+    B18 [label="B18:
+x = 5;
+y = 0;"];
+    B19 [label="B19:
+for(i = 0; i < 4; i++) {"];
+    B20 [label="B20:
+prevX[i] = lx[i];"];
+    B21 [label="B21:
+for(i = 0; i < 4; i++) {"];
+    B22 [label="B22:
+prevY[i] = ly[i];"];
+    B23 [label="B23:
+if(shapeType == 0) {"];
+    B24 [label="B24:
+if(rotation % 2 == 0) {"];
+    B25 [label="B25:
+lx[0] = x;
+lx[1] = x;
+lx[2] = x;
+lx[3] = x;
+ly[0] = y;
+ly[1] = y + 1;
+ly[2] = y + 2;
+ly[3] = y + 3;
+} else {
+lx[0] = x - 1;
+lx[1] = x;
+lx[2] = x + 1;
+lx[3] = x + 2;
+ly[0] = y;
+ly[1] = y;
+ly[2] = y;
+ly[3] = y;"];
+    B26 [label="B26:
+if(shapeType == 1) {"];
+    B27 [label="B27:
+lx[0] = x;
+lx[1] = x + 1;
+lx[2] = x;
+lx[3] = x + 1;
+ly[0] = y;
+ly[1] = y;
+ly[2] = y + 1;
+ly[3] = y + 1;
+int landed = 0;"];
+    B28 [label="B28:
+while(!landed){"];
+    B29 [label="B29:
+for(i=0;i<4;i++){ setcolor(WHITE); setfillstyle(SOLID_FILL,6); rectangle(180+lx[i]*15,90+ly[i]*15,194+lx[i]*15,104+ly[i]*15); floodfill(181+lx[i]*15,91+ly[i]*15,WHITE); }"];
+    B30 [label="B30:
+delay(spd);"];
+    B31 [label="B31:
+for(i=0;i<4;i++){ setcolor(BLACK); setfillstyle(SOLID_FILL,BLACK); rectangle(180+lx[i]*15,90+ly[i]*15,194+lx[i]*15,104+ly[i]*15); floodfill(181+lx[i]*15,91+ly[i]*15,BLACK); }"];
+    B32 [label="B32:
+for(i=0;i<4;i++){ if(arr[ly[i]+1][lx[i]]==1) landed=1; }"];
+    B33 [label="B33:
+if(!landed) for(i=0;i<4;i++) ly[i]++;"];
+    B34 [label="B34:
+if(kbhit()){"];
+    B35 [label="B35:
+char c=getch();"];
+    B36 [label="B36:
+if(c==0) c=getch();"];
+    B37 [label="B37:
+if(c==75){ int canMove=1; for(i=0;i<4;i++) if(arr[ly[i]][lx[i]-1]==1) canMove=0; if(canMove) for(i=0;i<4;i++) lx[i]--; }"];
+    B38 [label="B38:
+if(c==77){ int canMove=1; for(i=0;i<4;i++) if(arr[ly[i]][lx[i]+1]==1) canMove=0; if(canMove) for(i=0;i<4;i++) lx[i]++; }"];
+    B39 [label="B39:
+if(c==32){ rotation=(rotation+1)%4; break; }"];
+    B40 [label="B40:
+if(c==27) exit(0);"];
+    B41 [label="B41:
+if(c=='c' && canHold==1){ int temp=shapeType; shapeType=holdShape; holdShape=temp; rotation=holdRot; holdRot=rotation; canHold=0; }"];
+    B42 [label="B42:
+for(i=0;i<4;i++) arr[ly[i]][lx[i]]=1;"];
+    B43 [label="B43:
+int linesClearedAtOnce=0;"];
+    B44 [label="B44:
+for(i=24;i>=0;i--){"];
+    B45 [label="B45:
+int full=1;"];
+    B46 [label="B46:
+for(j=1;j<12;j++) if(arr[i][j]==0) full=0;"];
+    B47 [label="B47:
+if(full){ linesClearedAtOnce++; score+=100; levelScore+=100; lineCount++; for(k=i;k>0;k--) for(j=1;j<12;j++) arr[k][j]=arr[k-1][j]; for(j=1;j<12;j++) arr[0][j]=0; i++; }"];
+    B48 [label="B48:
+int multiplier=1;"];
+    B49 [label="B49:
+if(linesClearedAtOnce==2) multiplier=2;"];
+    B50 [label="B50:
+if(linesClearedAtOnce==3) multiplier=3;"];
+    B51 [label="B51:
+if(linesClearedAtOnce>=4) multiplier=5;"];
+    B52 [label="B52:
+score = score*multiplier;"];
+    B53 [label="B53:
+if(levelScore>=500){ spd-=10; level++; levelScore=0; }"];
+    B54 [label="B54:
+char sc[10], lv[10], ln[10];
+sprintf(sc,\"Score:%d\",score);
+sprintf(lv,\"Level:%d\",level);
+sprintf(ln,\"Lines:%d\",lineCount);
+setcolor(WHITE);
+settextstyle(3,0,2);
+outtextxy(50,50,sc);
+outtextxy(50,70,lv);
+outtextxy(50,90,ln);
+int over=0;"];
+    B55 [label="B55:
+for(i=1;i<12;i++) if(arr[0][i]==1) over=1;"];
+    B56 [label="B56:
+if(over){ settextstyle(3,0,4); outtextxy(200,200,\"GAME OVER\"); outtextxy(200,250,\"Press Y to play again\"); ch=getch(); if(ch!='y') exit(0); break; }"];
+    B57 [label="B57:
+shapeType=nextShape;
+rotation=nextRot;
+nextShape=rand()%7;
+nextRot=0;
+canHold=1;
+closegraph();"];
+    B0 -> B1;
+    B1 -> B2 [label="true"];
+    B1 -> B3 [label="false"];
+    B2 -> B1 [label="back"];
+    B2 -> B3 [label="true"];
+    B2 -> B4 [label="false"];
+    B3 -> B2 [label="back"];
+    B3 -> B4 [label="true"];
+    B3 -> B5 [label="false"];
+    B4 -> B3 [label="back"];
+    B4 -> B5;
+    B5 -> B6 [label="true"];
+    B5 -> B7 [label="false"];
+    B6 -> B5 [label="back"];
+    B6 -> B7;
+    B7 -> B8 [label="true"];
+    B7 -> B9 [label="false"];
+    B8 -> B7 [label="back"];
+    B8 -> B9;
+    B9 -> B10 [label="true"];
+    B9 -> B11 [label="false"];
+    B10 -> B9 [label="back"];
+    B10 -> B11;
+    B11 -> B12 [label="true"];
+    B11 -> B13 [label="false"];
+    B12 -> B13;
+    B13 -> B14 [label="true"];
+    B13 -> B15 [label="false"];
+    B14 -> B15;
+    B15 -> B16 [label="true"];
+    B15 -> B17 [label="false"];
+    B16 -> B17;
+    B17 -> B18 [label="true"];
+    B17 -> B19 [label="false"];
+    B18 -> B17 [label="back"];
+    B18 -> B19;
+    B19 -> B20 [label="true"];
+    B19 -> B21 [label="false"];
+    B20 -> B19 [label="back"];
+    B20 -> B21;
+    B21 -> B22 [label="true"];
+    B21 -> B23 [label="false"];
+    B22 -> B21 [label="back"];
+    B22 -> B23;
+    B23 -> B24 [label="true"];
+    B23 -> B25 [label="false"];
+    B24 -> B25 [label="true"];
+    B24 -> B26 [label="false"];
+    B25 -> B26;
+    B26 -> B27 [label="true"];
+    B26 -> B28 [label="false"];
+    B27 -> B28;
+    B28 -> B29 [label="true"];
+    B28 -> B30 [label="false"];
+    B29 -> B28 [label="back"];
+    B29 -> B30 [label="true"];
+    B29 -> B31 [label="false"];
+    B30 -> B29 [label="back"];
+    B30 -> B31;
+    B31 -> B32 [label="true"];
+    B31 -> B33 [label="false"];
+    B32 -> B31 [label="back"];
+    B32 -> B33 [label="true"];
+    B32 -> B34 [label="false"];
+    B33 -> B32 [label="back"];
+    B33 -> B34 [label="true"];
+    B33 -> B35 [label="false"];
+    B34 -> B35 [label="true"];
+    B34 -> B36 [label="false"];
+    B35 -> B36;
+    B36 -> B37 [label="true"];
+    B36 -> B38 [label="false"];
+    B37 -> B38 [label="true"];
+    B37 -> B39 [label="false"];
+    B38 -> B39 [label="true"];
+    B38 -> B40 [label="false"];
+    B39 -> B40 [label="true"];
+    B39 -> B41 [label="false"];
+    B40 -> B41 [label="true"];
+    B40 -> B42 [label="false"];
+    B41 -> B42 [label="true"];
+    B41 -> B43 [label="false"];
+    B42 -> B43 [label="true"];
+    B42 -> B44 [label="false"];
+    B43 -> B42 [label="back"];
+    B43 -> B44;
+    B44 -> B45 [label="true"];
+    B44 -> B46 [label="false"];
+    B45 -> B44 [label="back"];
+    B45 -> B46;
+    B46 -> B47 [label="true"];
+    B46 -> B48 [label="false"];
+    B47 -> B46 [label="back"];
+    B47 -> B48 [label="true"];
+    B47 -> B49 [label="false"];
+    B48 -> B49;
+    B49 -> B50 [label="true"];
+    B49 -> B51 [label="false"];
+    B50 -> B51 [label="true"];
+    B50 -> B52 [label="false"];
+    B51 -> B52 [label="true"];
+    B51 -> B53 [label="false"];
+    B52 -> B53;
+    B53 -> B54 [label="true"];
+    B53 -> B55 [label="false"];
+    B54 -> B55;
+    B55 -> B56 [label="true"];
+    B55 -> B57 [label="false"];
+    B56 -> B55 [label="back"];
+    B56 -> B57 [label="true"];
+}

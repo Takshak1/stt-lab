@@ -1,0 +1,1483 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-15T15:30:45Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 39,
+      "CONFIDENCE.LOW": 3,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 38,
+      "SEVERITY.MEDIUM": 5,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6442,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 317,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\_tensorflow.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 34,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\_torch.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 23,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\core.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\formats.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\ingestion\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\ingestion\\coco\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\ingestion\\coco\\exceptions.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\ingestion\\coco\\from_coco.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 274,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\ingestion\\coco\\ingest_coco.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 313,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\constants.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py": {
+      "CONFIDENCE.HIGH": 10,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 9,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 303,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\deeplake_utils.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 133,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 631,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_azure_utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 22,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_converter.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 402,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_debug.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 92,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_metadata_utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 71,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 215,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\exceptions.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 18,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\get_indexes.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 54,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\ipc.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_common.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 177,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_runners.py": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 132,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\upcast_array.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 13,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\warnings.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 5,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\worker_init_fn.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 691,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_dataset_.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 687,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_utils_.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 442,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\test_.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 180,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\compose_transform_.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 66,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\mmseg_.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 628,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\mmseg_dataset_.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 198,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\test_.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 190,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\schemas.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\storage.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\tql.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\types.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 54,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "272 \n273     source_ds = deeplake.query(f'SELECT * FROM \"{src}\"', token=token)\n274     dest_ds = deeplake.like(source_ds, dst, dst_creds, token=token)\n",
+      "col_offset": 33,
+      "end_col_offset": 48,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\__init__.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 273,
+      "line_range": [
+        273
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "4 # DEEPLAKE_AUTH_TOKEN holds the value of the ACTIVELOOP_TOKEN environment variable\n5 DEEPLAKE_AUTH_TOKEN = \"ACTIVELOOP_TOKEN\"\n",
+      "col_offset": 22,
+      "end_col_offset": 40,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\constants.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'ACTIVELOOP_TOKEN'",
+      "line_number": 5,
+      "line_range": [
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b105_hardcoded_password_string.html",
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
+    },
+    {
+      "code": "11         ds.create_tensor(tensor_name, **bbox_tensor_create_kwargs_())\n12     except:\n13         pass\n14 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 12,
+      "line_range": [
+        12,
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "61         ds.create_tensor(tensor_name, **polygon_tensor_create_kwargs_())\n62     except:\n63         pass\n64 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 62,
+      "line_range": [
+        62,
+        63
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "120         )\n121     except:\n122         pass\n123 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 121,
+      "line_range": [
+        121,
+        122
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "163         )\n164     except:\n165         pass\n166 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 164,
+      "line_range": [
+        164,
+        165
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "194         ds.create_tensor(tensor_name, **point_tensor_create_kwargs_())\n195     except:\n196         pass\n197 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 195,
+      "line_range": [
+        195,
+        196
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "232         ds.create_tensor(tensor_name, **polygon_tensor_create_kwargs_())\n233     except:\n234         pass\n235 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 233,
+      "line_range": [
+        233,
+        234
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "278         ds.create_tensor(tensor_name, **binary_mask_tensor_create_kwargs_())\n279     except:\n280         pass\n281 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 279,
+      "line_range": [
+        279,
+        280
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "287             converter.label_mappings[f\"{tensor_name}_labels\"] = dict()\n288     except:\n289         pass\n290 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 288,
+      "line_range": [
+        288,
+        289
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "302             )\n303             with urllib.request.urlopen(r) as response:\n304                 if generate_labels:\n",
+      "col_offset": 17,
+      "end_col_offset": 42,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 303,
+      "line_range": [
+        303
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "361         ds.create_tensor(tensor_name, **text_tensor_create_kwargs_())\n362     except:\n363         pass\n364 \n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\converters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 362,
+      "line_range": [
+        362,
+        363
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "5 def is_v3():\n6     assert int(deeplake.__version__.split(\".\")[0]) != 3\n7     return False\n",
+      "col_offset": 4,
+      "end_col_offset": 55,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\deeplake_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "145 \n146         assert len(self.ds) >= (offset + len(values))\n147 \n",
+      "col_offset": 8,
+      "end_col_offset": 53,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\deeplake_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 146,
+      "line_range": [
+        146
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "59     \"\"\"\n60     assert media_type in [\"image\", \"video\"], \"media_type must be either 'image' or 'video'\"\n61     import labelbox as lb  # type: ignore\n",
+      "col_offset": 4,
+      "end_col_offset": 91,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 60,
+      "line_range": [
+        60
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "303     \"\"\"\n304     assert media_type in [\"VIDEO\", \"IMAGE\"], \"media_type must be either 'VIDEO' or 'IMAGE'\"\n305     media_string = \"video\" if media_type == \"VIDEO\" else \"image\"\n",
+      "col_offset": 4,
+      "end_col_offset": 91,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 304,
+      "line_range": [
+        304
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "79 \n80                 assert len(frames) <= p[\"media_attributes\"][\"frame_count\"]\n81 \n",
+      "col_offset": 16,
+      "end_col_offset": 74,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_converter.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 80,
+      "line_range": [
+        80
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "347                 self.dataset.add_column(tensor_name, **v[\"create_tensor_kwargs\"])\n348             except:\n349                 pass\n350 \n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_converter.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 348,
+      "line_range": [
+        348,
+        349
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "77 \n78         assert option is not None\n79 \n",
+      "col_offset": 8,
+      "end_col_offset": 33,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_debug.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 78,
+      "line_range": [
+        78
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "12     try:\n13         response = requests.head(url, allow_redirects=True)\n14         return response.status_code == 200\n",
+      "col_offset": 19,
+      "end_col_offset": 59,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_utils.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 13,
+      "line_range": [
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    },
+    {
+      "code": "263     \"\"\"\n264     response = requests.get(url, headers=header)\n265     response.raise_for_status()\n",
+      "col_offset": 15,
+      "end_col_offset": 48,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\labelbox\\labelbox_utils.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 264,
+      "line_range": [
+        264
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    },
+    {
+      "code": "16         torch.cuda.empty_cache()\n17     except Exception:\n18         pass\n19     return\n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_runners.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 17,
+      "line_range": [
+        17,
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "34     ) -> None:\n35         assert isinstance(data_loaders, list)\n36         assert mmcv.is_list_of(workflow, tuple)\n",
+      "col_offset": 8,
+      "end_col_offset": 45,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_runners.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 35,
+      "line_range": [
+        35
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "35         assert isinstance(data_loaders, list)\n36         assert mmcv.is_list_of(workflow, tuple)\n37         assert len(data_loaders) == len(workflow)\n",
+      "col_offset": 8,
+      "end_col_offset": 47,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_runners.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 36,
+      "line_range": [
+        36
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "36         assert mmcv.is_list_of(workflow, tuple)\n37         assert len(data_loaders) == len(workflow)\n38         if max_iters is not None:\n",
+      "col_offset": 8,
+      "end_col_offset": 49,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_runners.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 37,
+      "line_range": [
+        37
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44             self._max_iters = max_iters\n45         assert (\n46             self._max_iters is not None\n47         ), \"max_iters must be specified during instantiation\"\n48 \n",
+      "col_offset": 8,
+      "end_col_offset": 61,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mm\\mm_runners.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45,
+        46,
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "282 \n283     assert device in [\"cuda\", \"mlu\"], \"Only available for cuda or mlu devices.\"\n284     if device == \"cuda\":\n",
+      "col_offset": 4,
+      "end_col_offset": 79,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 283,
+      "line_range": [
+        283
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "686             if not isinstance(metric, str):\n687                 assert len(metric) == 1\n688                 metric = metric[0]\n",
+      "col_offset": 16,
+      "end_col_offset": 39,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_dataset_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 687,
+      "line_range": [
+        687
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "697             if metric == \"mAP\":\n698                 assert isinstance(iou_thrs, list)\n699                 mean_aps = []\n",
+      "col_offset": 16,
+      "end_col_offset": 49,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_dataset_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 698,
+      "line_range": [
+        698
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "809         \"\"\"\n810         assert isinstance(results, list), \"results must be a list\"\n811         assert len(results) == len(\n",
+      "col_offset": 8,
+      "end_col_offset": 66,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_dataset_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 810,
+      "line_range": [
+        810
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "810         assert isinstance(results, list), \"results must be a list\"\n811         assert len(results) == len(\n812             self\n813         ), \"The length of results is not equal to the dataset len: {} != {}\".format(\n814             len(results), len(self)\n815         )\n816 \n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_dataset_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 811,
+      "line_range": [
+        811,
+        812,
+        813,
+        814,
+        815
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "255             anns = resFile\n256         assert type(anns) == list, \"results in not an array of objects\"\n257         annsImgIds = [ann[\"image_id\"] for ann in anns]\n",
+      "col_offset": 8,
+      "end_col_offset": 71,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_utils_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 256,
+      "line_range": [
+        256
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "257         annsImgIds = [ann[\"image_id\"] for ann in anns]\n258         assert set(annsImgIds) == (\n259             set(annsImgIds) & set(self.getImgIds())\n260         ), \"Results do not correspond to current coco set\"\n261         if \"caption\" in anns[0]:\n",
+      "col_offset": 8,
+      "end_col_offset": 58,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_utils_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 258,
+      "line_range": [
+        258,
+        259,
+        260
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "482             total_ann_ids.extend(ann_ids)\n483         assert len(set(total_ann_ids)) == len(total_ann_ids)\n484         return data_infos\n",
+      "col_offset": 8,
+      "end_col_offset": 60,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\mmdet_utils_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 483,
+      "line_range": [
+        483
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "2 import os.path as osp\n3 import pickle\n4 import shutil\n",
+      "col_offset": 0,
+      "end_col_offset": 13,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\test_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with pickle module.",
+      "line_number": 3,
+      "line_range": [
+        3
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "43             imgs = tensor2imgs(img_tensor, **img_metas[0][\"img_norm_cfg\"])\n44             assert len(imgs) == len(img_metas)\n45 \n",
+      "col_offset": 12,
+      "end_col_offset": 46,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\test_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 44,
+      "line_range": [
+        44
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "217         for recv, shape in zip(part_recv_list, shape_list):\n218             part_list.append(pickle.loads(recv[: shape[0]].cpu().numpy().tobytes()))\n219         # sort the results\n",
+      "col_offset": 29,
+      "end_col_offset": 83,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmdet\\test_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 218,
+      "line_range": [
+        218
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "246 \n247     assert device in [\"cuda\", \"mlu\"], \"Only available for cuda or mlu devices.\"\n248     if device == \"cuda\":\n",
+      "col_offset": 4,
+      "end_col_offset": 79,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\mmseg_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 247,
+      "line_range": [
+        247
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "618         custom_hooks = cfg.custom_hooks\n619         assert isinstance(\n620             custom_hooks, list\n621         ), f\"custom_hooks expect list type, but got {type(custom_hooks)}\"\n622         for hook_cfg in cfg.custom_hooks:\n",
+      "col_offset": 8,
+      "end_col_offset": 73,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\mmseg_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 619,
+      "line_range": [
+        619,
+        620,
+        621
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "622         for hook_cfg in cfg.custom_hooks:\n623             assert isinstance(hook_cfg, dict), (\n624                 \"Each item in custom_hooks expects dict type, but got \"\n625                 f\"{type(hook_cfg)}\"\n626             )\n627             hook_cfg = hook_cfg.copy()\n",
+      "col_offset": 12,
+      "end_col_offset": 13,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\mmseg_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 623,
+      "line_range": [
+        623,
+        624,
+        625,
+        626
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "77     # a list of np.array.\n78     assert [efficient_test, pre_eval, format_only].count(True) <= 1, (\n79         \"``efficient_test``, ``pre_eval`` and ``format_only`` are mutually \"\n80         \"exclusive, only one of them could be true .\"\n81     )\n82 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\test_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 78,
+      "line_range": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "101             imgs = tensor2imgs(img_tensor, **img_metas[0][\"img_norm_cfg\"])\n102             assert len(imgs) == len(img_metas)\n103 \n",
+      "col_offset": 12,
+      "end_col_offset": 46,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\test_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 102,
+      "line_range": [
+        102
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "194     # a list of np.array.\n195     assert [efficient_test, pre_eval, format_only].count(True) <= 1, (\n196         \"``efficient_test``, ``pre_eval`` and ``format_only`` are mutually \"\n197         \"exclusive, only one of them could be true .\"\n198     )\n199 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "c:\\Users\\taksh\\sttlab6\\repos\\deeplake\\python\\deeplake\\integrations\\mmseg\\test_.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 195,
+      "line_range": [
+        195,
+        196,
+        197,
+        198
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}
